@@ -1,4 +1,3 @@
-
 resource containerGroup 'Microsoft.ContainerInstance/containerGroups@2021-03-01' = {
   name: 'my-container-group'
   location: resourceGroup().location
